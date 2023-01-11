@@ -414,3 +414,54 @@ body.dark .home .text{
 .home .card h4{
     color: black;
 }
+
+
+/* ------------------------login-page start--------------------------- */
+
+.login-page{
+    margin-top: 100px;
+}
+.login-page h1{
+    color: #6424EB;
+}
+.login-page .login-bg{
+    background-image: url("../images/login.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;;
+}
+.login-page .form-bg{
+    padding: 50px;
+}
+.login-page  form{
+    width: 450px;
+    margin-top: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+}
+.login-page  form input{
+    padding: 15px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #f6f2fd;
+}
+.login-page  form input::placeholder{
+    font-size: 13px;
+}
+.login-page  form button{
+    background-color: #6424EB;
+    color: white;
+    transition: 0.3s ease;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 0;
+}
+.login-page  form button:hover{
+    opacity: 0.7;
+}
+.login-page .row{
+    margin-top: 50px;
+}
+
+/* ------------------------login-page start--------------------------- */
